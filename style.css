@@ -1,14 +1,19 @@
 body {background-color: #708090;
     color: #FFF;
     font-family: Arial, Verdana, sans-serif;
+    }
 
 nav {float:left;
     width:150px;
     background-color: #eee;
-    }
-nav:link{color: #fff;}
-nav:visited{color:#ddd9d9;}
-nav:hover {color: #869dc7;}
+    display: inline-block;}
+nav a
+{text-decoration: none;
+display: inline-block;
+padding: 10px;
+color: #708090}
+nav a:link{color: #fff;}
+nav a:hover {color: #869dc7;}
 
 h2 {color: #FFF;
     text-align: center;
@@ -26,6 +31,9 @@ footer {font-size: 70%;
 	  clear: both;
 	  }
 
+.E-mail {color: #fff}
+
+.social{color:#fff}
 
     @media only screen and (max-width:1024px){
     body{margin:0px;}
